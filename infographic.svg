@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" role="img" aria-labelledby="title description">
+  <title id="title">Cẩm nang hành trang tình nguyện viên</title>
+  <desc id="description">Hướng dẫn về trang phục, vật dụng cá nhân, y tế, an toàn và tinh thần đồng đội.</desc>
+  <defs>
+    <linearGradient id="header" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#16734d"/>
+      <stop offset="1" stop-color="#1263c7"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="900" fill="#f1f5f4"/>
+  <rect width="600" height="150" fill="url(#header)"/>
+  <text x="300" y="43" text-anchor="middle" fill="#fde047" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">CẨM NANG CHIẾN SĨ TÌNH NGUYỆN</text>
+  <text x="300" y="90" text-anchor="middle" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="800">HÀNH TRANG MÙA HÈ XANH</text>
+  <text x="300" y="122" text-anchor="middle" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="15" font-style="italic">Chuẩn bị kỹ càng – An toàn cống hiến – Trọn vẹn hành trình</text>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="40" y="174" width="520" height="145" rx="10" fill="#ffffff" stroke="#d7e0e6" stroke-width="2"/>
+    <path d="M50 184h500v42H50z" fill="#176b4b"/>
+    <text x="66" y="212" fill="#ffffff" font-size="19" font-weight="700">01 · TRANG PHỤC &amp; BẢO HỘ</text>
+    <text x="70" y="254" fill="#334155" font-size="16">• Áo thanh niên tình nguyện, quần áo gọn gàng.</text>
+    <text x="70" y="280" fill="#334155" font-size="16">• Nón, giày thể thao và găng tay phù hợp công việc.</text>
+    <text x="70" y="306" fill="#334155" font-size="16">• Dùng bảo hộ đúng hướng dẫn khi làm việc.</text>
+
+    <rect x="40" y="337" width="520" height="145" rx="10" fill="#ffffff" stroke="#d7e0e6" stroke-width="2"/>
+    <path d="M50 347h500v42H50z" fill="#1769cf"/>
+    <text x="66" y="375" fill="#ffffff" font-size="19" font-weight="700">02 · ĐỒ DÙNG CÁ NHÂN &amp; TIỆN ÍCH</text>
+    <text x="70" y="417" fill="#334155" font-size="16">• Bình nước cá nhân; uống nước thường xuyên.</text>
+    <text x="70" y="443" fill="#334155" font-size="16">• Kem chống nắng, thuốc chống côn trùng.</text>
+    <text x="70" y="469" fill="#334155" font-size="16">• Áo mưa và túi chống nước cho vật dụng cần thiết.</text>
+
+    <rect x="40" y="500" width="520" height="145" rx="10" fill="#ffffff" stroke="#d7e0e6" stroke-width="2"/>
+    <path d="M50 510h500v42H50z" fill="#d83248"/>
+    <text x="66" y="538" fill="#ffffff" font-size="19" font-weight="700">03 · Y TẾ &amp; SƠ CỨU CƠ BẢN</text>
+    <text x="70" y="580" fill="#334155" font-size="16">• Mang thuốc cá nhân và vật dụng sơ cứu cơ bản.</text>
+    <text x="70" y="606" fill="#334155" font-size="16">• Báo ngay cho trưởng nhóm khi thấy không khỏe.</text>
+    <text x="70" y="632" fill="#334155" font-size="16">• Không tự ý xử lý tình huống vượt khả năng.</text>
+
+    <rect x="40" y="663" width="520" height="145" rx="10" fill="#ffffff" stroke="#d7e0e6" stroke-width="2"/>
+    <path d="M50 673h500v42H50z" fill="#ed7817"/>
+    <text x="66" y="701" fill="#ffffff" font-size="19" font-weight="700">04 · KỶ LUẬT &amp; TINH THẦN ĐỒNG ĐỘI</text>
+    <text x="70" y="743" fill="#334155" font-size="16">• Tập trung đúng giờ, tuân thủ phân công của nhóm.</text>
+    <text x="70" y="769" fill="#334155" font-size="16">• Giữ liên lạc, hỗ trợ và quan tâm đồng đội.</text>
+    <text x="70" y="795" fill="#334155" font-size="16">• Không tự ý tách đoàn hoặc làm việc nguy hiểm.</text>
+  </g>
+  <rect x="40" y="827" width="520" height="51" rx="9" fill="url(#header)"/>
+  <text x="300" y="850" text-anchor="middle" fill="#fde047" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">AN TOÀN · TRÁCH NHIỆM · CỐNG HIẾN</text>
+  <text x="300" y="869" text-anchor="middle" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="12">Cẩm nang Mùa Hè Xanh · MMC403</text>
+</svg>

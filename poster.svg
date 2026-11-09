@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 840" role="img" aria-labelledby="title description">
+  <title id="title">Poster chiến dịch Mùa Hè Xanh</title>
+  <desc id="description">Poster giới thiệu hành trình cống hiến, ba đội hình tình nguyện và lời mời đăng ký.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#064e3b"/>
+      <stop offset="1" stop-color="#123c68"/>
+    </linearGradient>
+    <linearGradient id="callout" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#facc15"/>
+      <stop offset="1" stop-color="#f97316"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="840" fill="url(#background)"/>
+  <circle cx="70" cy="80" r="125" fill="none" stroke="#a3e635" stroke-opacity=".35" stroke-width="2"/>
+  <circle cx="570" cy="790" r="150" fill="none" stroke="#38bdf8" stroke-opacity=".3" stroke-width="2"/>
+  <rect x="40" y="34" width="520" height="58" rx="12" fill="#ffffff" fill-opacity=".94"/>
+  <text x="300" y="59" text-anchor="middle" fill="#166534" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">ĐOÀN TNCS HỒ CHÍ MINH – HỘI SINH VIÊN VIỆT NAM</text>
+  <text x="300" y="80" text-anchor="middle" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="13">CHIẾN DỊCH TÌNH NGUYỆN SINH VIÊN MMC403</text>
+  <text x="300" y="151" text-anchor="middle" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="800">MÙA HÈ XANH</text>
+  <text x="300" y="190" text-anchor="middle" fill="#fde047" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="800">HÀNH TRÌNH CỐNG HIẾN</text>
+  <text x="300" y="220" text-anchor="middle" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="17" font-style="italic">“Mỗi mùa hè – Một hành trình cống hiến”</text>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="50" y="258" width="500" height="91" rx="12" fill="#ffffff" fill-opacity=".96" stroke="#1688e8" stroke-width="5"/>
+    <text x="74" y="291" fill="#0875cc" font-size="20" font-weight="700">ĐỘI HÌNH TIẾP SỨC CỘNG ĐỒNG</text>
+    <text x="74" y="319" fill="#263238" font-size="15">An sinh xã hội, hỗ trợ người dân và thực hiện công trình dân sinh.</text>
+    <rect x="50" y="363" width="500" height="91" rx="12" fill="#ffffff" fill-opacity=".96" stroke="#22a34a" stroke-width="5"/>
+    <text x="74" y="396" fill="#18813b" font-size="20" font-weight="700">ĐỘI HÌNH MÔI TRƯỜNG XANH</text>
+    <text x="74" y="424" fill="#263238" font-size="15">Trồng cây, làm sạch khu dân cư và bảo vệ môi trường.</text>
+    <rect x="50" y="468" width="500" height="91" rx="12" fill="#ffffff" fill-opacity=".96" stroke="#f97316" stroke-width="5"/>
+    <text x="74" y="501" fill="#dc6414" font-size="20" font-weight="700">ĐỘI HÌNH VÌ TRẺ EM</text>
+    <text x="74" y="529" fill="#263238" font-size="15">Ôn tập hè, sinh hoạt thiếu nhi và trao gửi yêu thương.</text>
+  </g>
+  <rect x="50" y="580" width="500" height="105" rx="12" fill="#07131d" fill-opacity=".9"/>
+  <g text-anchor="middle" font-family="Arial, Helvetica, sans-serif">
+    <text x="112" y="625" fill="#fde047" font-size="27" font-weight="800">1.000+</text>
+    <text x="112" y="651" fill="#ffffff" font-size="12">CÂY XANH</text>
+    <text x="238" y="625" fill="#fde047" font-size="27" font-weight="800">15+</text>
+    <text x="238" y="651" fill="#ffffff" font-size="12">CÔNG TRÌNH</text>
+    <text x="364" y="625" fill="#fde047" font-size="27" font-weight="800">500+</text>
+    <text x="364" y="651" fill="#ffffff" font-size="12">SUẤT QUÀ</text>
+    <text x="490" y="625" fill="#fde047" font-size="27" font-weight="800">300+</text>
+    <text x="490" y="651" fill="#ffffff" font-size="12">CHIẾN SĨ</text>
+  </g>
+  <rect x="50" y="704" width="500" height="76" rx="12" fill="url(#callout)"/>
+  <text x="300" y="737" text-anchor="middle" fill="#172033" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="800">HÃY ĐĂNG KÝ THAM GIA NGAY!</text>
+  <text x="300" y="761" text-anchor="middle" fill="#172033" font-family="Arial, Helvetica, sans-serif" font-size="14">Tuổi trẻ nhiệt huyết – Cùng nhau tạo nên mùa hè ý nghĩa</text>
+  <text x="300" y="817" text-anchor="middle" fill="#e2e8f0" font-family="Arial, Helvetica, sans-serif" font-size="12">MÙA HÈ XANH · MMC403</text>
+</svg>
