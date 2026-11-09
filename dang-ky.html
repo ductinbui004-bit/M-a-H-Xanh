@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Đăng Ký Tham Gia | Mùa Hè Xanh – Hành Trình Cống Hiến</title>
+  <!-- Bảng kiểu dáng CSS dùng chung cho toàn bộ website -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Chuyển đến nội dung chính</a>
+
+  <!-- ==================== HEADER & MENU ĐIỀU HƯỚNG ==================== -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="index.html" class="logo-brand" title="Về trang chủ Mùa Hè Xanh">
+        <img src="images/logo.jpg" alt="Logo Mùa Hè Xanh" class="logo-img">
+        <div class="logo-text">
+          <span class="logo-title">MÙA HÈ XANH</span>
+          <span class="logo-slogan">HÀNH TRÌNH CỐNG HIẾN</span>
+        </div>
+      </a>
+
+      <button type="button" class="nav-toggle" id="nav-toggle-btn" aria-label="Mở menu điều hướng" aria-expanded="false">
+        ☰
+      </button>
+
+      <nav class="main-nav" id="main-nav" aria-label="Điều hướng chính">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="index.html" class="nav-link">Trang chủ</a></li>
+          <li class="nav-item"><a href="muc-tieu-dia-ban.html" class="nav-link">Mục tiêu & Địa bàn</a></li>
+          <li class="nav-item"><a href="doi-hinh.html" class="nav-link">Đội hình</a></li>
+          <li class="nav-item"><a href="hoat-dong.html" class="nav-link">Hoạt động</a></li>
+          <li class="nav-item"><a href="lich-trinh.html" class="nav-link">Lịch trình</a></li>
+          <li class="nav-item"><a href="dang-ky.html" class="nav-link active" aria-current="page">Đăng ký</a></li>
+          <li class="nav-item"><a href="faq.html" class="nav-link">FAQ</a></li>
+          <li class="nav-item"><a href="thu-vien.html" class="nav-link">Thư viện</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ==================== PHẦN THÂN NỘI DUNG CHÍNH ==================== -->
+  <main id="main-content">
+    <div class="container section-block">
+      
+      <!-- TIÊU ĐỀ CHÍNH H1 -->
+      <header class="detail-header text-center" style="max-width: 800px; margin: 0 auto 30px auto;">
+        <span class="badge-tag green">Chuyên đề 3 – Tuyển quân tình nguyện</span>
+        <h1>ĐĂNG KÝ THAM GIA MÙA HÈ XANH</h1>
+        <p style="font-size: 1.25rem; font-weight: 700; color: var(--color-primary-green); margin-bottom: 8px;">Cùng tuổi trẻ tạo nên những điều ý nghĩa</p>
+        <p class="section-intro" style="margin: 0 auto;">
+          Bạn muốn góp sức xây dựng cộng đồng, bảo vệ môi trường và tham gia những hoạt động bổ ích? Hãy đăng ký tham gia chương trình Mùa hè xanh để cùng các tình nguyện viên lan tỏa tinh thần sẻ chia và cống hiến.
+        </p>
+      </header>
+
+      <!-- BIỂU MẪU ĐĂNG KÝ (FORM CHUẨN HTML5 KẾT HỢP JAVASCRIPT VALIDATION) -->
+      <div class="form-card">
+        <form id="volunteer-registration-form" novalidate aria-label="Biểu mẫu đăng ký tham gia chiến dịch">
+          
+          <!-- TRƯỜNG 1: HỌ VÀ TÊN -->
+          <div class="form-group">
+            <label for="fullname" class="form-label">
+              1. Họ và tên của bạn <span class="required-mark" aria-hidden="true">*</span>
+            </label>
+            <input 
+              type="text" 
+              id="fullname" 
+              name="fullname" 
+              class="form-control" 
+              placeholder="Ví dụ: Nguyễn Văn A" 
+              maxlength="50" 
+              required 
+              aria-describedby="fullname-help fullname-error">
+            <small id="fullname-help" class="form-help">Nhập đầy đủ họ và tên theo giấy tờ tùy thân (tối đa 50 ký tự).</small>
+            <div id="fullname-error" class="error-feedback" role="alert"></div>
+          </div>
+
+          <!-- TRƯỜNG 2: ĐỊA CHỈ EMAIL -->
+          <div class="form-group">
+            <label for="email" class="form-label">
+              2. Địa chỉ Email liên hệ <span class="required-mark" aria-hidden="true">*</span>
+            </label>
+            <input 
+              type="email" 
+              id="email" 
+              name="email" 
+              class="form-control" 
+              placeholder="Ví dụ: sinhvien@edu.vn" 
+              required 
+              aria-describedby="email-help email-error">
+            <small id="email-help" class="form-help">Ban tổ chức sẽ gửi thư triệu tập và kế hoạch xuất quân qua email này.</small>
+            <div id="email-error" class="error-feedback" role="alert"></div>
+          </div>
+
+          <!-- TRƯỜNG 3: SỐ ĐIỆN THOẠI -->
+          <div class="form-group">
+            <label for="phone" class="form-label">
+              3. Số điện thoại (Zalo) <span class="required-mark" aria-hidden="true">*</span>
+            </label>
+            <input 
+              type="tel" 
+              id="phone" 
+              name="phone" 
+              class="form-control" 
+              placeholder="Ví dụ: 0912345678" 
+              maxlength="11" 
+              required 
+              aria-describedby="phone-help phone-error">
+            <small id="phone-help" class="form-help">Nhập số điện thoại 10 chữ số tại Việt Nam để liên hệ nhanh khi cần.</small>
+            <div id="phone-error" class="error-feedback" role="alert"></div>
+          </div>
+
+          <!-- TRƯỜNG 4: ĐỘI HÌNH MUỐN THAM GIA -->
+          <div class="form-group">
+            <label for="squad" class="form-label">
+              4. Đội hình muốn tham gia <span class="required-mark" aria-hidden="true">*</span>
+            </label>
+            <select id="squad" name="squad" class="form-control" required aria-describedby="squad-help squad-error">
+              <option value="">-- Vui lòng chọn đội hình tình nguyện --</option>
+              <option value="moi-truong">Đội hình Môi trường xanh (Trồng cây, dọn vệ sinh, bảo vệ môi trường)</option>
+              <option value="tiep-suc">Đội hình Tiếp sức cộng đồng (An sinh xã hội, sửa nhà, hỗ trợ người dân)</option>
+              <option value="vi-tre-em">Đội hình Vì trẻ em (Ôn tập hè, sinh hoạt thiếu nhi, dạy kỹ năng sống)</option>
+            </select>
+            <small id="squad-help" class="form-help">Lựa chọn đội hình phù hợp với khả năng, sở trường hoặc chuyên ngành học của bạn.</small>
+            <div id="squad-error" class="error-feedback" role="alert"></div>
+          </div>
+
+          <!-- TRƯỜNG 5: THỜI GIAN CÓ THỂ THAM GIA (RADIO BUTTONS) -->
+          <div class="form-group">
+            <fieldset style="border: none; padding: 0; margin: 0;">
+              <legend class="form-label">
+                5. Thời gian bạn có thể tham gia <span class="required-mark" aria-hidden="true">*</span>
+              </legend>
+              <div class="radio-group" role="radiogroup">
+                <label class="radio-label">
+                  <input type="radio" name="availability" value="fulltime" required>
+                  <span>Toàn thời gian chiến dịch (Các ngày trong tuần & cuối tuần)</span>
+                </label>
+                <label class="radio-label">
+                  <input type="radio" name="availability" value="weekends">
+                  <span>Chỉ các ngày cuối tuần (Thứ Bảy & Chủ Nhật)</span>
+                </label>
+                <label class="radio-label">
+                  <input type="radio" name="availability" value="mornings">
+                  <span>Buổi sáng các ngày trong tuần (Từ 07:00 – 11:30)</span>
+                </label>
+              </div>
+              <div id="time-error" class="error-feedback" role="alert"></div>
+            </fieldset>
+          </div>
+
+          <!-- TRƯỜNG 6: LÝ DO ĐĂNG KÝ -->
+          <div class="form-group">
+            <label for="reason" class="form-label">
+              6. Lý do đăng ký & Kỹ năng đóng góp <span class="required-mark" aria-hidden="true">*</span>
+            </label>
+            <textarea 
+              id="reason" 
+              name="reason" 
+              class="form-control" 
+              placeholder="Chia sẻ mong muốn, động lực hoặc những năng khiếu/kỹ năng bạn có thể đóng góp cho chiến dịch (tối thiểu 10 ký tự)..." 
+              required 
+              aria-describedby="reason-help reason-error"></textarea>
+            <small id="reason-help" class="form-help">Giúp Ban Chỉ huy hiểu rõ nguyện vọng để phân công vị trí phù hợp nhất.</small>
+            <div id="reason-error" class="error-feedback" role="alert"></div>
+          </div>
+
+          <!-- NÚT GỬI ĐĂNG KÝ -->
+          <div style="margin-top: 28px;">
+            <button type="submit" class="btn btn-primary" style="width: 100%; font-size: 1.1rem; padding: 14px;">
+              Gửi đăng ký tham gia Mùa Hè Xanh
+            </button>
+          </div>
+        </form>
+
+        <!-- ==================== KHUNG TÓM TẮT THÔNG TIN ĐĂNG KÝ MÔ PHỎNG (JS RENDER) ==================== -->
+        <section id="registration-summary" class="reg-summary-card" aria-live="polite" aria-labelledby="summary-box-heading">
+          <h2 class="summary-title" id="summary-box-heading">
+            ✓ Tiếp nhận thông tin đăng ký thành công!
+          </h2>
+          
+          <div class="summary-badge-note">
+            <strong>Ghi chú quan trọng:</strong> Đây là kết quả hiển thị mô phỏng tại trình duyệt phục vụ học tập môn MMC403, dữ liệu chưa được lưu vào cơ sở dữ liệu thật.
+          </div>
+
+          <h3 style="font-size: 1.15rem; color: var(--color-primary-green-dark); margin-bottom: 12px;">Tóm tắt thông tin đã khai báo:</h3>
+          
+          <ul class="summary-list">
+            <li>
+              <strong>Họ và tên:</strong>
+              <span id="summary-name">--</span>
+            </li>
+            <li>
+              <strong>Email:</strong>
+              <span id="summary-email">--</span>
+            </li>
+            <li>
+              <strong>Số điện thoại:</strong>
+              <span id="summary-phone">--</span>
+            </li>
+            <li>
+              <strong>Đội hình lựa chọn:</strong>
+              <span id="summary-squad">--</span>
+            </li>
+            <li>
+              <strong>Thời gian tham gia:</strong>
+              <span id="summary-time">--</span>
+            </li>
+            <li>
+              <strong>Lý do & Nguyện vọng:</strong>
+              <span id="summary-reason">--</span>
+            </li>
+          </ul>
+
+          <div class="text-center" style="margin-top: 20px;">
+            <button type="button" id="reset-form-btn" class="btn btn-secondary btn-sm">
+              Đăng ký thêm lượt khác / Chỉnh sửa lại
+            </button>
+          </div>
+        </section>
+
+      </div>
+
+    </div>
+  </main>
+
+  <!-- ==================== FOOTER CHÂN TRANG THỐNG NHẤT ==================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <p class="footer-brand-title">MÙA HÈ XANH – HÀNH TRÌNH CỐNG HIẾN</p>
+          <p class="footer-text">Chiến dịch tình nguyện thường niên thắp sáng tinh thần xung kích, dấn thân và cống hiến của tuổi trẻ sinh viên vì sự phát triển bền vững của cộng đồng.</p>
+          <p class="footer-disclaimer">Website mô phỏng phục vụ học tập – Thiết kế web MMC403. Thông tin liên hệ và mục tiêu dự kiến mang tính chất minh họa học tập.</p>
+        </div>
+        <div>
+          <h4 class="footer-heading">Liên kết nội dung</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Trang chủ</a></li>
+            <li><a href="muc-tieu-dia-ban.html">Mục tiêu & Địa bàn</a></li>
+            <li><a href="doi-hinh.html">Các đội hình tình nguyện</a></li>
+            <li><a href="hoat-dong.html">Danh mục hoạt động</a></li>
+            <li><a href="chi-tiet-hoat-dong.html">Chi tiết hoạt động trọng điểm</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-heading">Thông tin & Đăng ký</h4>
+          <ul class="footer-links">
+            <li><a href="lich-trinh.html">Lịch trình & Kế hoạch</a></li>
+            <li><a href="dang-ky.html">Đăng ký tham gia</a></li>
+            <li><a href="faq.html">Hỏi đáp thường gặp (FAQ)</a></li>
+            <li><a href="thu-vien.html">Thư viện ảnh</a></li>
+            <li style="margin-top: 10px; color: #cbd5e1; font-size: 0.88rem;">Email minh họa: muahexanh.minhhoa@edu.vn</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 MÙA HÈ XANH – HÀNH TRÌNH CỐNG HIẾN | Thiết kế web MMC403.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

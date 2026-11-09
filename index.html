@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trang Chủ | Mùa Hè Xanh – Hành Trình Cống Hiến</title>
+  <!-- Bảng kiểu dáng CSS dùng chung cho toàn bộ website -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Phím tắt bỏ qua điều hướng dành cho người dùng khiếm thị / dùng phím Tab -->
+  <a href="#main-content" class="skip-link">Chuyển đến nội dung chính</a>
+
+  <!-- ==================== HEADER & MENU ĐIỀU HƯỚNG ==================== -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="index.html" class="logo-brand" title="Về trang chủ Mùa Hè Xanh">
+        <img src="images/logo.jpg" alt="Logo Mùa Hè Xanh" class="logo-img">
+        <div class="logo-text">
+          <span class="logo-title">MÙA HÈ XANH</span>
+          <span class="logo-slogan">HÀNH TRÌNH CỐNG HIẾN</span>
+        </div>
+      </a>
+
+      <!-- Nút bật/tắt menu trên thiết bị di động (Mobile Hamburger) -->
+      <button type="button" class="nav-toggle" id="nav-toggle-btn" aria-label="Mở menu điều hướng" aria-expanded="false">
+        ☰
+      </button>
+
+      <!-- Thanh điều hướng chính gồm 8 mục -->
+      <nav class="main-nav" id="main-nav" aria-label="Điều hướng chính">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="index.html" class="nav-link active" aria-current="page">Trang chủ</a></li>
+          <li class="nav-item"><a href="muc-tieu-dia-ban.html" class="nav-link">Mục tiêu & Địa bàn</a></li>
+          <li class="nav-item"><a href="doi-hinh.html" class="nav-link">Đội hình</a></li>
+          <li class="nav-item"><a href="hoat-dong.html" class="nav-link">Hoạt động</a></li>
+          <li class="nav-item"><a href="lich-trinh.html" class="nav-link">Lịch trình</a></li>
+          <li class="nav-item"><a href="dang-ky.html" class="nav-link">Đăng ký</a></li>
+          <li class="nav-item"><a href="faq.html" class="nav-link">FAQ</a></li>
+          <li class="nav-item"><a href="thu-vien.html" class="nav-link">Thư viện</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ==================== PHẦN THÂN NỘI DUNG CHÍNH ==================== -->
+  <main id="main-content">
+    <div class="container">
+      
+      <!-- HERO BANNER SECTION -->
+      <section class="hero-section" aria-labelledby="hero-main-title">
+        <img src="images/banner2.png" alt="Banner chính thức chiến dịch Mùa Hè Xanh – Hành Trình Cống Hiến" class="hero-banner-img">
+        <div class="hero-overlay">
+          <div class="hero-content">
+            <span class="hero-badge">Chiến dịch tình nguyện sinh viên MMC403</span>
+            <h1 class="hero-title" id="hero-main-title">MÙA HÈ XANH</h1>
+            <p class="hero-tagline">“Mỗi mùa hè – Một hành trình cống hiến”</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION: 3 ĐỘI HÌNH NỔI BẬT -->
+      <section class="section-block" aria-labelledby="squads-heading">
+        <h2 class="section-heading" id="squads-heading">3 Đội hình tình nguyện nổi bật</h2>
+        <p class="section-intro">Chiến dịch tổ chức lực lượng chuyên môn hóa theo 3 đội hình mũi nhọn nhằm phát huy tối đa sở trường và ngành học của từng sinh viên:</p>
+
+        <div class="grid-3">
+          <!-- Card 1: Tiếp sức cộng đồng -->
+          <article class="card">
+            <div class="card-img-wrap">
+              <img src="images/doi-hinh-1.png" alt="Đội hình Tiếp sức cộng đồng hỗ trợ người dân và sửa chữa nhà tình thương" class="card-img" loading="lazy">
+              <span class="card-badge blue">Tiếp sức</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Đội Hình Tiếp Sức Cộng Đồng</h3>
+              <p class="card-text">Thực hiện các hoạt động an sinh xã hội, thăm hỏi gia đình chính sách, sửa chữa nhà tình thương và hỗ trợ người dân có hoàn cảnh khó khăn tại địa bàn phụ trách.</p>
+              <div class="card-footer">
+                <a href="doi-hinh.html" class="btn btn-secondary btn-sm">Xem chi tiết đội hình</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 2: Môi trường xanh -->
+          <article class="card">
+            <div class="card-img-wrap">
+              <img src="images/doi-hinh-2.png" alt="Đội hình Môi trường xanh dọn vệ sinh và trồng cây" class="card-img" loading="lazy">
+              <span class="card-badge">Môi trường</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Đội Hình Môi Trường Xanh</h3>
+              <p class="card-text">Xử lý các điểm ô nhiễm rác thải, trồng cây xanh tạo cảnh quan, tuyên truyền phân loại rác tại nguồn và bảo vệ nguồn nước sạch cho các khu dân cư nông thôn.</p>
+              <div class="card-footer">
+                <a href="doi-hinh.html" class="btn btn-primary btn-sm">Xem chi tiết đội hình</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 3: Vì trẻ em -->
+          <article class="card">
+            <div class="card-img-wrap">
+              <img src="images/doi-hinh-3.png" alt="Đội hình Vì trẻ em tổ chức lớp học và sinh hoạt hè cho thiếu nhi" class="card-img" loading="lazy">
+              <span class="card-badge orange">Vì trẻ em</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Đội Hình Vì Trẻ Em</h3>
+              <p class="card-text">Tổ chức các lớp ôn tập hè, sinh hoạt thiếu nhi, giáo dục kỹ năng phòng chống tai nạn thương tích và trao tặng quà, học bổng cho học sinh nghèo vượt khó.</p>
+              <div class="card-footer">
+                <a href="doi-hinh.html" class="btn btn-outline btn-sm">Xem chi tiết đội hình</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- SECTION: 6 HOẠT ĐỘNG TIÊU BIỂU -->
+      <section class="section-block" aria-labelledby="activities-summary-heading">
+        <h2 class="section-heading" id="activities-summary-heading">6 Hoạt động tình nguyện tiêu biểu</h2>
+        <p class="section-intro">Mỗi hoạt động là một hành động cụ thể, đóng góp thiết thực cho địa phương và giúp sinh viên tích lũy kỹ năng thực tế quý báu:</p>
+
+        <div class="grid-3">
+          <!-- 1. Trồng cây xanh -->
+          <div class="activity-card">
+            <h3>1. Trồng cây xanh</h3>
+            <p>Trồng mới hàng ngàn cây xanh, tạo bóng mát sân trường và phủ xanh tuyến đường giao thông nông thôn.</p>
+            <a href="chi-tiet-hoat-dong.html#trong-cay" class="btn btn-outline btn-sm">Xem chi tiết</a>
+          </div>
+
+          <!-- 2. Dọn vệ sinh khu dân cư -->
+          <div class="activity-card">
+            <h3>2. Dọn vệ sinh khu dân cư</h3>
+            <p>Thu gom rác thải tự phát, quét dọn đường làng ngõ xóm và làm sạch các điểm công cộng.</p>
+            <a href="hoat-dong.html" class="btn btn-outline btn-sm">Xem danh mục</a>
+          </div>
+
+          <!-- 3. Sơn sửa không gian cộng đồng -->
+          <div class="activity-card blue">
+            <h3>3. Sơn sửa không gian cộng đồng</h3>
+            <p>Cải tạo nhà văn hóa, làm đẹp điểm sinh hoạt cộng đồng và xóa biển quảng cáo rác.</p>
+            <a href="hoat-dong.html" class="btn btn-outline btn-sm">Xem danh mục</a>
+          </div>
+
+          <!-- 4. Tổ chức sinh hoạt thiếu nhi -->
+          <div class="activity-card orange">
+            <h3>4. Tổ chức sinh hoạt thiếu nhi</h3>
+            <p>Tổ chức trò chơi dân gian, rèn luyện kỹ năng sống và mang lại mùa hè bổ ích cho trẻ em.</p>
+            <a href="chi-tiet-hoat-dong.html#sinh-hoat-thieu-nhi" class="btn btn-outline btn-sm">Xem chi tiết</a>
+          </div>
+
+          <!-- 5. Hỗ trợ người dân -->
+          <div class="activity-card blue">
+            <h3>5. Hỗ trợ người dân</h3>
+            <p>Hỗ trợ gia đình chính sách, bà mẹ neo đơn và hướng dẫn cài đặt dịch vụ công trực tuyến.</p>
+            <a href="hoat-dong.html" class="btn btn-outline btn-sm">Xem danh mục</a>
+          </div>
+
+          <!-- 6. Tuyên truyền bảo vệ môi trường -->
+          <div class="activity-card">
+            <h3>6. Tuyên truyền bảo vệ môi trường</h3>
+            <p>Tuyên truyền phân loại rác tại nguồn, bảo vệ nguồn nước và giảm thiểu rác thải nhựa.</p>
+            <a href="hoat-dong.html" class="btn btn-outline btn-sm">Xem danh mục</a>
+          </div>
+        </div>
+
+        <div class="text-center mt-4">
+          <a href="hoat-dong.html" class="btn btn-primary">Khám phá toàn bộ hoạt động & Bộ lọc tìm kiếm</a>
+        </div>
+      </section>
+
+      <!-- SECTION: ẤN PHẨM TRUYỀN THÔNG CHIẾN DỊCH -->
+      <section class="section-block" aria-labelledby="media-heading">
+        <h2 class="section-heading" id="media-heading">Ấn phẩm truyền thông chiến dịch</h2>
+        <p class="section-intro">Bộ ấn phẩm thiết kế trực quan phục vụ công tác tuyên truyền và lan tỏa thông điệp của chiến dịch Mùa Hè Xanh:</p>
+
+        <div class="grid-2">
+          <!-- Poster -->
+          <figure class="media-card">
+            <div class="media-img-wrap">
+              <img src="images/poster.svg" alt="Poster chiến dịch Mùa Hè Xanh giới thiệu ba đội hình tình nguyện và lời mời đăng ký" loading="lazy">
+            </div>
+            <figcaption>
+              <strong>Hình 1.1:</strong> Poster tuyên truyền chính thức chiến dịch Mùa Hè Xanh – Hành Trình Cống Hiến.
+            </figcaption>
+          </figure>
+
+          <!-- Infographic -->
+          <figure class="media-card">
+            <div class="media-img-wrap">
+              <img src="images/infographic.svg" alt="Cẩm nang hành trang tình nguyện viên về trang phục, vật dụng, y tế và an toàn" loading="lazy">
+            </div>
+            <figcaption>
+              <strong>Hình 1.2:</strong> Infographic Hành trang tình nguyện viên: Hướng dẫn trang phục, đồ dùng, y tế và kỷ luật an toàn.
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- ==================== FOOTER CHÂN TRANG THỐNG NHẤT ==================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <p class="footer-brand-title">MÙA HÈ XANH – HÀNH TRÌNH CỐNG HIẾN</p>
+          <p class="footer-text">Chiến dịch tình nguyện thường niên thắp sáng tinh thần xung kích, dấn thân và cống hiến của tuổi trẻ sinh viên vì sự phát triển bền vững của cộng đồng.</p>
+          <p class="footer-disclaimer">Website mô phỏng phục vụ học tập – Thiết kế web MMC403. Thông tin liên hệ và mục tiêu dự kiến mang tính chất minh họa học tập.</p>
+        </div>
+        <div>
+          <h4 class="footer-heading">Liên kết nội dung</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Trang chủ</a></li>
+            <li><a href="muc-tieu-dia-ban.html">Mục tiêu & Địa bàn</a></li>
+            <li><a href="doi-hinh.html">Các đội hình tình nguyện</a></li>
+            <li><a href="hoat-dong.html">Danh mục hoạt động</a></li>
+            <li><a href="chi-tiet-hoat-dong.html">Chi tiết hoạt động trọng điểm</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-heading">Thông tin & Đăng ký</h4>
+          <ul class="footer-links">
+            <li><a href="lich-trinh.html">Lịch trình & Kế hoạch</a></li>
+            <li><a href="dang-ky.html">Đăng ký tham gia</a></li>
+            <li><a href="faq.html">Hỏi đáp thường gặp (FAQ)</a></li>
+            <li><a href="thu-vien.html">Thư viện ảnh</a></li>
+            <li style="margin-top: 10px; color: #cbd5e1; font-size: 0.88rem;">Email minh họa: muahexanh.minhhoa@edu.vn</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 MÙA HÈ XANH – HÀNH TRÌNH CỐNG HIẾN | Thiết kế web MMC403.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script điều khiển JavaScript chung -->
+  <script src="js/script.js"></script>
+</body>
+</html>

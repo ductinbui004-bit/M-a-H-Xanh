@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Câu Hỏi Thường Gặp (FAQ) | Mùa Hè Xanh – Hành Trình Cống Hiến</title>
+  <!-- Bảng kiểu dáng CSS dùng chung cho toàn bộ website -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Chuyển đến nội dung chính</a>
+
+  <!-- ==================== HEADER & MENU ĐIỀU HƯỚNG ==================== -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="index.html" class="logo-brand" title="Về trang chủ Mùa Hè Xanh">
+        <img src="images/logo.jpg" alt="Logo Mùa Hè Xanh" class="logo-img">
+        <div class="logo-text">
+          <span class="logo-title">MÙA HÈ XANH</span>
+          <span class="logo-slogan">HÀNH TRÌNH CỐNG HIẾN</span>
+        </div>
+      </a>
+
+      <button type="button" class="nav-toggle" id="nav-toggle-btn" aria-label="Mở menu điều hướng" aria-expanded="false">
+        ☰
+      </button>
+
+      <nav class="main-nav" id="main-nav" aria-label="Điều hướng chính">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="index.html" class="nav-link">Trang chủ</a></li>
+          <li class="nav-item"><a href="muc-tieu-dia-ban.html" class="nav-link">Mục tiêu & Địa bàn</a></li>
+          <li class="nav-item"><a href="doi-hinh.html" class="nav-link">Đội hình</a></li>
+          <li class="nav-item"><a href="hoat-dong.html" class="nav-link">Hoạt động</a></li>
+          <li class="nav-item"><a href="lich-trinh.html" class="nav-link">Lịch trình</a></li>
+          <li class="nav-item"><a href="dang-ky.html" class="nav-link">Đăng ký</a></li>
+          <li class="nav-item"><a href="faq.html" class="nav-link active" aria-current="page">FAQ</a></li>
+          <li class="nav-item"><a href="thu-vien.html" class="nav-link">Thư viện</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ==================== PHẦN THÂN NỘI DUNG CHÍNH ==================== -->
+  <main id="main-content">
+    <div class="container section-block">
+      
+      <!-- TIÊU ĐỀ CHÍNH H1 -->
+      <header class="detail-header text-center" style="max-width: 850px; margin: 0 auto 36px auto;">
+        <span class="badge-tag green">Giải đáp thắc mắc</span>
+        <h1>CÂU HỎI THƯỜNG GẶP (FAQ)</h1>
+        <p style="font-size: 1.2rem; font-weight: 700; color: var(--color-primary-green); margin-bottom: 8px;">Mùa hè xanh – Hành trình cống hiến</p>
+        <p class="section-intro" style="margin: 0 auto;">
+          Bạn đang muốn tìm hiểu về chương trình Mùa hè xanh? Dưới đây là những câu hỏi thường gặp giúp bạn hiểu rõ hơn về hoạt động, đội hình và cách đăng ký tham gia.
+        </p>
+      </header>
+
+      <!-- DANH SÁCH 10 CÂU HỎI ACCORDION (CHỨC NĂNG JAVASCRIPT ĐÓNG/MỞ) -->
+      <div class="faq-list" role="region" aria-label="Danh sách câu hỏi thường gặp">
+        
+        <!-- CÂU 1 -->
+        <article class="faq-item active">
+          <button type="button" class="faq-trigger" aria-expanded="true" aria-controls="faq-ans-1" id="faq-btn-1">
+            <span>Câu 1: Mùa hè xanh là chương trình gì?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-content" id="faq-ans-1" role="region" aria-labelledby="faq-btn-1">
+            <p>Mùa hè xanh là hoạt động tình nguyện hướng đến sinh viên, tạo cơ hội để các bạn đóng góp sức trẻ cho cộng đồng thông qua các hoạt động bảo vệ môi trường, hỗ trợ người dân và chăm lo cho thiếu nhi.</p>
+          </div>
+        </article>
+
+        <!-- CÂU 2 -->
+        <article class="faq-item">
+          <button type="button" class="faq-trigger" aria-expanded="false" aria-controls="faq-ans-2" id="faq-btn-2">
+            <span>Câu 2: Ai có thể tham gia chương trình?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-content" id="faq-ans-2" role="region" aria-labelledby="faq-btn-2">
+            <p>Sinh viên có tinh thần trách nhiệm, nhiệt tình, yêu thích hoạt động cộng đồng và sẵn sàng phối hợp với mọi người có thể đăng ký tham gia, tùy theo điều kiện cụ thể của chương trình.</p>
+          </div>
+        </article>
+
+        <!-- CÂU 3 -->
+        <article class="faq-item">
+          <button type="button" class="faq-trigger" aria-expanded="false" aria-controls="faq-ans-3" id="faq-btn-3">
+            <span>Câu 3: Chương trình có những đội hình nào?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-content" id="faq-ans-3" role="region" aria-labelledby="faq-btn-3">
+            <p>Chương trình dự kiến có ba đội hình chính:</p>
+            <ul>
+              <li><strong>Môi trường xanh:</strong> Trồng cây, thu gom rác và tuyên truyền bảo vệ môi trường.</li>
+              <li><strong>Tiếp sức cộng đồng:</strong> Hỗ trợ người dân và cải thiện không gian sinh hoạt chung.</li>
+              <li><strong>Vì trẻ em:</strong> Tổ chức trò chơi, đọc sách và hoạt động kỹ năng cho thiếu nhi.</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- CÂU 4 -->
+        <article class="faq-item">
+          <button type="button" class="faq-trigger" aria-expanded="false" aria-controls="faq-ans-4" id="faq-btn-4">
+            <span>Câu 4: Tình nguyện viên sẽ thực hiện những công việc gì?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-content" id="faq-ans-4" role="region" aria-labelledby="faq-btn-4">
+            <p>Tình nguyện viên có thể tham gia trồng cây xanh, vệ sinh khu dân cư, tuyên truyền bảo vệ môi trường, hỗ trợ cộng đồng và tổ chức các hoạt động vui chơi cho trẻ em.</p>
+          </div>
+        </article>
+
+        <!-- CÂU 5 -->
+        <article class="faq-item">
+          <button type="button" class="faq-trigger" aria-expanded="false" aria-controls="faq-ans-5" id="faq-btn-5">
+            <span>Câu 5: Khi tham gia cần chuẩn bị những gì?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-content" id="faq-ans-5" role="region" aria-labelledby="faq-btn-5">
+            <p>Bạn nên chuẩn bị trang phục gọn gàng, giày dép phù hợp, nước uống, vật dụng cá nhân và các dụng cụ theo hướng dẫn của ban tổ chức. Đồng thời, hãy giữ tinh thần hợp tác, chủ động và tuân thủ các quy định an toàn.</p>
+          </div>
+        </article>
+
+        <!-- CÂU 6 -->
+        <article class="faq-item">
+          <button type="button" class="faq-trigger" aria-expanded="false" aria-controls="faq-ans-6" id="faq-btn-6">
+            <span>Câu 6: Làm thế nào để đăng ký tham gia?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-content" id="faq-ans-6" role="region" aria-labelledby="faq-btn-6">
+            <p>Bạn truy cập trang <strong>Đăng ký</strong>, điền các thông tin cần thiết như họ tên, email, số điện thoại, đội hình mong muốn và thời gian có thể tham gia, sau đó nhấn nút gửi đăng ký.</p>
+          </div>
+        </article>
+
+        <!-- CÂU 7 -->
+        <article class="faq-item">
+          <button type="button" class="faq-trigger" aria-expanded="false" aria-controls="faq-ans-7" id="faq-btn-7">
+            <span>Câu 7: Có thể chọn đội hình theo sở thích không?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-content" id="faq-ans-7" role="region" aria-labelledby="faq-btn-7">
+            <p>Bạn có thể chọn đội hình phù hợp với sở thích, khả năng và thời gian của mình. Việc phân công chính thức sẽ phụ thuộc vào kế hoạch và điều kiện tổ chức thực tế.</p>
+          </div>
+        </article>
+
+        <!-- CÂU 8 -->
+        <article class="faq-item">
+          <button type="button" class="faq-trigger" aria-expanded="false" aria-controls="faq-ans-8" id="faq-btn-8">
+            <span>Câu 8: Sau khi đăng ký, tôi có được xác nhận không?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-content" id="faq-ans-8" role="region" aria-labelledby="faq-btn-8">
+            <p>Trong phiên bản website minh họa, hệ thống sẽ hiển thị thông báo khi bạn điền thông tin hợp lệ. Đây chỉ là thông báo mô phỏng, không có nghĩa là thông tin đã được gửi đến ban tổ chức.</p>
+          </div>
+        </article>
+
+        <!-- CÂU 9 -->
+        <article class="faq-item">
+          <button type="button" class="faq-trigger" aria-expanded="false" aria-controls="faq-ans-9" id="faq-btn-9">
+            <span>Câu 9: Nếu có thắc mắc hoặc cần hỗ trợ thì liên hệ ở đâu?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-content" id="faq-ans-9" role="region" aria-labelledby="faq-btn-9">
+            <p>Bạn có thể liên hệ qua thông tin đầu mối giả định phục vụ học tập:</p>
+            <p style="background-color: #f8fafc; padding: 12px; border-radius: var(--radius-sm); border-left: 3px solid var(--color-primary-blue);">
+              <strong>Ban Chỉ huy Chiến dịch Mùa Hè Xanh (Minh họa MMC403)</strong><br>
+              Email: <code>muahexanh.minhhoa@edu.vn</code> | Điện thoại: <code>028 0000 0000</code><br>
+              <em>(Nội dung liên hệ mang tính chất minh họa học tập).</em>
+            </p>
+          </div>
+        </article>
+
+        <!-- CÂU 10 -->
+        <article class="faq-item">
+          <button type="button" class="faq-trigger" aria-expanded="false" aria-controls="faq-ans-10" id="faq-btn-10">
+            <span>Câu 10: Tham gia Mùa hè xanh mang lại lợi ích gì?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-content" id="faq-ans-10" role="region" aria-labelledby="faq-btn-10">
+            <p>Chương trình giúp sinh viên rèn luyện kỹ năng giao tiếp, làm việc nhóm, tổ chức hoạt động và giải quyết vấn đề. Đồng thời, đây cũng là cơ hội để các bạn hiểu hơn về cộng đồng và phát huy tinh thần trách nhiệm xã hội.</p>
+          </div>
+        </article>
+
+      </div>
+
+      <!-- LỜI KÊU GỌI HÀNH ĐỘNG -->
+      <div style="background-color: #ffffff; padding: 28px; border-radius: var(--radius-md); border: 1px solid var(--color-border-light); margin-top: 40px; text-align: center;">
+        <h3 style="color: var(--color-primary-green-dark); margin-bottom: 10px;">Bạn đã sẵn sàng đồng hành cùng Mùa Hè Xanh?</h3>
+        <p style="max-width: 700px; margin: 0 auto 20px auto;">Hãy cùng hàng trăm chiến sĩ sinh viên thắp lửa nhiệt huyết và kiến tạo những giá trị tốt đẹp cho cộng đồng ngay hôm nay.</p>
+        <a href="dang-ky.html" class="btn btn-primary">Đăng ký tham gia ngay</a>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- ==================== FOOTER CHÂN TRANG THỐNG NHẤT ==================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <p class="footer-brand-title">MÙA HÈ XANH – HÀNH TRÌNH CỐNG HIẾN</p>
+          <p class="footer-text">Chiến dịch tình nguyện thường niên thắp sáng tinh thần xung kích, dấn thân và cống hiến của tuổi trẻ sinh viên vì sự phát triển bền vững của cộng đồng.</p>
+          <p class="footer-disclaimer">Website mô phỏng phục vụ học tập – Thiết kế web MMC403. Thông tin liên hệ và mục tiêu dự kiến mang tính chất minh họa học tập.</p>
+        </div>
+        <div>
+          <h4 class="footer-heading">Liên kết nội dung</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Trang chủ</a></li>
+            <li><a href="muc-tieu-dia-ban.html">Mục tiêu & Địa bàn</a></li>
+            <li><a href="doi-hinh.html">Các đội hình tình nguyện</a></li>
+            <li><a href="hoat-dong.html">Danh mục hoạt động</a></li>
+            <li><a href="chi-tiet-hoat-dong.html">Chi tiết hoạt động trọng điểm</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-heading">Thông tin & Đăng ký</h4>
+          <ul class="footer-links">
+            <li><a href="lich-trinh.html">Lịch trình & Kế hoạch</a></li>
+            <li><a href="dang-ky.html">Đăng ký tham gia</a></li>
+            <li><a href="faq.html">Hỏi đáp thường gặp (FAQ)</a></li>
+            <li><a href="thu-vien.html">Thư viện ảnh</a></li>
+            <li style="margin-top: 10px; color: #cbd5e1; font-size: 0.88rem;">Email minh họa: muahexanh.minhhoa@edu.vn</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 MÙA HÈ XANH – HÀNH TRÌNH CỐNG HIẾN | Thiết kế web MMC403.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

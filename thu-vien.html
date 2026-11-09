@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thư Viện Hình Ảnh | Mùa Hè Xanh – Hành Trình Cống Hiến</title>
+  <!-- Bảng kiểu dáng CSS dùng chung cho toàn bộ website -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Chuyển đến nội dung chính</a>
+
+  <!-- ==================== HEADER & MENU ĐIỀU HƯỚNG ==================== -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="index.html" class="logo-brand" title="Về trang chủ Mùa Hè Xanh">
+        <img src="images/logo.jpg" alt="Logo Mùa Hè Xanh" class="logo-img">
+        <div class="logo-text">
+          <span class="logo-title">MÙA HÈ XANH</span>
+          <span class="logo-slogan">HÀNH TRÌNH CỐNG HIẾN</span>
+        </div>
+      </a>
+
+      <button type="button" class="nav-toggle" id="nav-toggle-btn" aria-label="Mở menu điều hướng" aria-expanded="false">
+        ☰
+      </button>
+
+      <nav class="main-nav" id="main-nav" aria-label="Điều hướng chính">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="index.html" class="nav-link">Trang chủ</a></li>
+          <li class="nav-item"><a href="muc-tieu-dia-ban.html" class="nav-link">Mục tiêu & Địa bàn</a></li>
+          <li class="nav-item"><a href="doi-hinh.html" class="nav-link">Đội hình</a></li>
+          <li class="nav-item"><a href="hoat-dong.html" class="nav-link">Hoạt động</a></li>
+          <li class="nav-item"><a href="lich-trinh.html" class="nav-link">Lịch trình</a></li>
+          <li class="nav-item"><a href="dang-ky.html" class="nav-link">Đăng ký</a></li>
+          <li class="nav-item"><a href="faq.html" class="nav-link">FAQ</a></li>
+          <li class="nav-item"><a href="thu-vien.html" class="nav-link active" aria-current="page">Thư viện</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ==================== PHẦN THÂN NỘI DUNG CHÍNH ==================== -->
+  <main id="main-content">
+    <div class="container section-block">
+      
+      <!-- TIÊU ĐỀ CHÍNH H1 -->
+      <header class="detail-header text-center" style="max-width: 850px; margin: 0 auto 36px auto;">
+        <span class="badge-tag green">Khoảnh khắc thực tế</span>
+        <h1>THƯ VIỆN ẢNH – MÙA HÈ XANH</h1>
+        <p style="font-size: 1.25rem; font-weight: 700; color: var(--color-primary-green); margin-bottom: 8px;">Lưu giữ khoảnh khắc – Lan tỏa hành trình cống hiến</p>
+        <p class="section-intro" style="margin: 0 auto;">
+          Thư viện ảnh Mùa hè xanh ghi lại những khoảnh khắc đáng nhớ của các bạn sinh viên trong quá trình tham gia hoạt động tình nguyện. Mỗi bức ảnh là một câu chuyện về tinh thần đoàn kết, sự sẻ chia và trách nhiệm của tuổi trẻ đối với cộng đồng.
+        </p>
+        <p style="font-size: 0.9rem; color: var(--color-primary-blue); font-weight: 600; margin-top: 10px;">
+          💡 <em>Mẹo: Bấm vào hình ảnh bất kỳ (hoặc dùng phím Tab + Enter) để phóng to xem chi tiết trong cửa sổ Lightbox. Bấm phím Esc hoặc nút ✕ để đóng.</em>
+        </p>
+      </header>
+
+      <!-- CHỦ ĐỀ 1: BẢO VỆ MÔI TRƯỜNG -->
+      <section class="section-block" aria-labelledby="gallery-env-heading">
+        <h2 class="section-heading" id="gallery-env-heading">1. Hoạt Động Bảo Vệ Môi Trường</h2>
+        <p class="section-intro">
+          Các tình nguyện viên cùng nhau trồng cây xanh, thu gom rác thải, vệ sinh đường phố và tuyên truyền nâng cao ý thức bảo vệ môi trường. Những hành động nhỏ góp phần xây dựng không gian sống xanh, sạch và đẹp hơn.
+        </p>
+
+        <div class="gallery-grid">
+          <!-- Ảnh 1: Thu gom rác bờ kênh -->
+          <figure class="gallery-item" tabindex="0" role="button" aria-label="Xem ảnh Thu gom rác bờ kênh"
+                  data-full="images/anh-1.jpg"
+                  data-caption="Chiến sĩ Mùa Hè Xanh lội bùn thu gom rác thải và dọn sạch tuyến kênh ô nhiễm">
+            <div class="gallery-thumbnail-wrap">
+              <img src="images/anh-1.jpg" alt="Chiến sĩ Mùa Hè Xanh lội bùn thu gom rác thải và dọn sạch tuyến kênh ô nhiễm" class="gallery-thumb" loading="lazy">
+              <div class="gallery-zoom-overlay">🔍 Phóng to ảnh</div>
+            </div>
+            <figcaption class="gallery-caption">
+              <p class="gallery-title">Thu gom rác thải bờ kênh</p>
+            </figcaption>
+          </figure>
+
+          <!-- Ảnh 2: Trồng cây ven đường -->
+          <figure class="gallery-item" tabindex="0" role="button" aria-label="Xem ảnh Trồng cây xanh ven đường"
+                  data-full="images/anh-2.jpg"
+                  data-caption="Trồng hàng cây xanh tạo bóng mát trên tuyến đường giao thông nông thôn mới">
+            <div class="gallery-thumbnail-wrap">
+              <img src="images/anh-2.jpg" alt="Trồng hàng cây xanh tạo bóng mát trên tuyến đường giao thông nông thôn mới" class="gallery-thumb" loading="lazy">
+              <div class="gallery-zoom-overlay">🔍 Phóng to ảnh</div>
+            </div>
+            <figcaption class="gallery-caption">
+              <p class="gallery-title">Trồng cây xanh ven đường</p>
+            </figcaption>
+          </figure>
+
+          <!-- Ảnh 3: Vớt bèo khơi thông dòng chảy -->
+          <figure class="gallery-item" tabindex="0" role="button" aria-label="Xem ảnh Vớt bèo khơi thông dòng chảy"
+                  data-full="images/anh-3.jpg"
+                  data-caption="Đội hình Môi trường xanh vớt bèo tây khơi thông dòng chảy phục vụ tưới tiêu">
+            <div class="gallery-thumbnail-wrap">
+              <img src="images/anh-3.jpg" alt="Đội hình Môi trường xanh vớt bèo tây khơi thông dòng chảy phục vụ tưới tiêu" class="gallery-thumb" loading="lazy">
+              <div class="gallery-zoom-overlay">🔍 Phóng to ảnh</div>
+            </div>
+            <figcaption class="gallery-caption">
+              <p class="gallery-title">Khơi thông dòng chảy rạch nhỏ</p>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <!-- CHỦ ĐỀ 2: HỖ TRỢ CỘNG ĐỒNG -->
+      <section class="section-block" aria-labelledby="gallery-comm-heading">
+        <h2 class="section-heading" id="gallery-comm-heading">2. Hoạt Động Hỗ Trợ Cộng Đồng</h2>
+        <p class="section-intro">
+          Sinh viên tham gia dọn dẹp, sơn sửa các không gian sinh hoạt chung và hỗ trợ người dân trong những công việc phù hợp. Qua đó, các bạn có cơ hội hiểu hơn về đời sống địa phương và lan tỏa tinh thần tương thân tương ái.
+        </p>
+
+        <div class="gallery-grid">
+          <!-- Ảnh 4: Bóc xóa quảng cáo bẩn trong hẻm -->
+          <figure class="gallery-item" tabindex="0" role="button" aria-label="Xem ảnh Bóc xóa biển quảng cáo rác"
+                  data-full="images/anh-4.jpg"
+                  data-caption="Chiến sĩ tình nguyện cạo bóc biển quảng cáo rao vặt trái phép, làm sạch tường ngõ">
+            <div class="gallery-thumbnail-wrap">
+              <img src="images/anh-4.jpg" alt="Chiến sĩ tình nguyện cạo bóc biển quảng cáo rao vặt trái phép, làm sạch tường ngõ" class="gallery-thumb" loading="lazy">
+              <div class="gallery-zoom-overlay">🔍 Phóng to ảnh</div>
+            </div>
+            <figcaption class="gallery-caption">
+              <p class="gallery-title">Xóa biển quảng cáo sai quy định</p>
+            </figcaption>
+          </figure>
+
+          <!-- Ảnh 5: Làm đường bê tông nông thôn -->
+          <figure class="gallery-item" tabindex="0" role="button" aria-label="Xem ảnh Làm đường bê tông giao thông"
+                  data-full="images/anh-5.jpg"
+                  data-caption="Sinh viên cùng bà con nhân dân đổ bê tông nâng cấp tuyến đường giao thông liên ấp">
+            <div class="gallery-thumbnail-wrap">
+              <img src="images/anh-5.jpg" alt="Sinh viên cùng bà con nhân dân đổ bê tông nâng cấp tuyến đường giao thông liên ấp" class="gallery-thumb" loading="lazy">
+              <div class="gallery-zoom-overlay">🔍 Phóng to ảnh</div>
+            </div>
+            <figcaption class="gallery-caption">
+              <p class="gallery-title">Nâng cấp đường bê tông liên ấp</p>
+            </figcaption>
+          </figure>
+
+          <!-- Ảnh 6: Trao quà gia đình chính sách -->
+          <figure class="gallery-item" tabindex="0" role="button" aria-label="Xem ảnh Phát quà và nhu yếu phẩm cho người dân"
+                  data-full="images/anh-6.jpg"
+                  data-caption="Thăm hỏi ân cần và trao quà nhu yếu phẩm cho Mẹ Việt Nam Anh hùng và hộ khó khăn">
+            <div class="gallery-thumbnail-wrap">
+              <img src="images/anh-6.jpg" alt="Thăm hỏi ân cần và trao quà nhu yếu phẩm cho Mẹ Việt Nam Anh hùng và hộ khó khăn" class="gallery-thumb" loading="lazy">
+              <div class="gallery-zoom-overlay">🔍 Phóng to ảnh</div>
+            </div>
+            <figcaption class="gallery-caption">
+              <p class="gallery-title">Thăm hỏi gia đình chính sách</p>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <!-- CHỦ ĐỀ 3: VÌ TRẺ EM -->
+      <section class="section-block" aria-labelledby="gallery-kids-heading">
+        <h2 class="section-heading" id="gallery-kids-heading">3. Hoạt Động Vì Trẻ Em</h2>
+        <p class="section-intro">
+          Các tình nguyện viên tổ chức trò chơi tập thể, đọc sách, hướng dẫn kỹ năng và tạo sân chơi bổ ích cho thiếu nhi. Những hoạt động này góp phần mang đến niềm vui, sự kết nối và những kỷ niệm đẹp cho các em.
+        </p>
+
+        <div class="gallery-grid">
+          <!-- Ảnh 7: Tặng áo ấm trẻ em vùng cao -->
+          <figure class="gallery-item" tabindex="0" role="button" aria-label="Xem ảnh Tặng áo ấm và học phẩm cho trẻ em"
+                  data-full="images/anh-7.jpg"
+                  data-caption="Trao tặng áo ấm, cặp sách và đồ dùng học tập cho học sinh tiểu học khó khăn">
+            <div class="gallery-thumbnail-wrap">
+              <img src="images/anh-7.jpg" alt="Trao tặng áo ấm, cặp sách và đồ dùng học tập cho học sinh tiểu học khó khăn" class="gallery-thumb" loading="lazy">
+              <div class="gallery-zoom-overlay">🔍 Phóng to ảnh</div>
+            </div>
+            <figcaption class="gallery-caption">
+              <p class="gallery-title">Tiếp bước em đến trường</p>
+            </figcaption>
+          </figure>
+
+          <!-- Ảnh 8: Phát bánh kẹo & sinh hoạt trò chơi -->
+          <figure class="gallery-item" tabindex="0" role="button" aria-label="Xem ảnh Sinh hoạt trò chơi và phát quà bánh cho thiếu nhi"
+                  data-full="images/anh-8.jpg"
+                  data-caption="Sân chơi ngày hè rộn ràng tiếng cười với các trò chơi dân gian và bánh kẹo">
+            <div class="gallery-thumbnail-wrap">
+              <img src="images/anh-8.jpg" alt="Sân chơi ngày hè rộn ràng tiếng cười với các trò chơi dân gian và bánh kẹo" class="gallery-thumb" loading="lazy">
+              <div class="gallery-zoom-overlay">🔍 Phóng to ảnh</div>
+            </div>
+            <figcaption class="gallery-caption">
+              <p class="gallery-title">Sân chơi tuổi thơ ngày hè</p>
+            </figcaption>
+          </figure>
+
+          <!-- Ảnh 9: Lớp học tình thương kèm cặp văn hóa -->
+          <figure class="gallery-item" tabindex="0" role="button" aria-label="Xem ảnh Lớp học văn hóa hè cho thiếu nhi"
+                  data-full="images/anh-9.jpg"
+                  data-caption="Sinh viên kèm cặp từng nét chữ, con số cho các em học sinh chuẩn bị bước vào năm học mới">
+            <div class="gallery-thumbnail-wrap">
+              <img src="images/anh-9.jpg" alt="Sinh viên kèm cặp từng nét chữ, con số cho các em học sinh chuẩn bị bước vào năm học mới" class="gallery-thumb" loading="lazy">
+              <div class="gallery-zoom-overlay">🔍 Phóng to ảnh</div>
+            </div>
+            <figcaption class="gallery-caption">
+              <p class="gallery-title">Lớp học tình thương hè</p>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <!-- CHỦ ĐỀ 4: KHOẢNH KHẮC ĐÁNG NHỚ & ẤN PHẨM TRUYỀN THÔNG -->
+      <section class="section-block" aria-labelledby="gallery-memory-heading">
+        <h2 class="section-heading" id="gallery-memory-heading">4. Khoảnh Khắc Đáng Nhớ & Ấn Phẩm Truyền Thông</h2>
+        <p class="section-intro">
+          Từ những buổi lao động dưới nắng hè đến những nụ cười sau khi hoàn thành nhiệm vụ, mỗi khoảnh khắc đều thể hiện sức trẻ, sự nhiệt huyết và tinh thần cống hiến của sinh viên.
+        </p>
+
+        <div class="gallery-grid">
+          <!-- Ảnh 10: Lễ ra quân phất cờ -->
+          <figure class="gallery-item" tabindex="0" role="button" aria-label="Xem ảnh Lễ xuất quân phất cờ chiến dịch"
+                  data-full="images/anh-10.jpg"
+                  data-caption="Không khí hào hùng của buổi lễ xuất quân Mùa Hè Xanh với rừng cờ xanh phấp phới">
+            <div class="gallery-thumbnail-wrap">
+              <img src="images/anh-10.jpg" alt="Không khí hào hùng của buổi lễ xuất quân Mùa Hè Xanh với rừng cờ xanh phấp phới" class="gallery-thumb" loading="lazy">
+              <div class="gallery-zoom-overlay">🔍 Phóng to ảnh</div>
+            </div>
+            <figcaption class="gallery-caption">
+              <p class="gallery-title">Lễ xuất quân phất cờ xung kích</p>
+            </figcaption>
+          </figure>
+
+          <!-- Ảnh 11: Nụ cười hoàn thành nhiệm vụ -->
+          <figure class="gallery-item" tabindex="0" role="button" aria-label="Xem ảnh Nụ cười rạng rỡ của chiến sĩ tình nguyện"
+                  data-full="images/anh-11.jpg"
+                  data-caption="Nụ cười rạng rỡ của các chiến sĩ sau một ngày lao động miệt mài hoàn thành công trình">
+            <div class="gallery-thumbnail-wrap">
+              <img src="images/anh-11.jpg" alt="Nụ cười rạng rỡ của các chiến sĩ sau một ngày lao động miệt mài hoàn thành công trình" class="gallery-thumb" loading="lazy">
+              <div class="gallery-zoom-overlay">🔍 Phóng to ảnh</div>
+            </div>
+            <figcaption class="gallery-caption">
+              <p class="gallery-title">Nụ cười rạng rỡ ngày hoàn thành</p>
+            </figcaption>
+          </figure>
+
+          <!-- Ảnh 12: Đêm lửa trại gắn kết đồng đội -->
+          <figure class="gallery-item" tabindex="0" role="button" aria-label="Xem ảnh Giao lưu văn nghệ và lửa trại"
+                  data-full="images/anh-12.jpg"
+                  data-caption="Đêm giao lưu lửa trại thắm đượm tình đồng đội và sự gắn bó giữa sinh viên với người dân">
+            <div class="gallery-thumbnail-wrap">
+              <img src="images/anh-12.jpg" alt="Đêm giao lưu lửa trại thắm đượm tình đồng đội và sự gắn bó giữa sinh viên với người dân" class="gallery-thumb" loading="lazy">
+              <div class="gallery-zoom-overlay">🔍 Phóng to ảnh</div>
+            </div>
+            <figcaption class="gallery-caption">
+              <p class="gallery-title">Đêm hội quân lửa trại thanh niên</p>
+            </figcaption>
+          </figure>
+
+          <!-- Ấn phẩm 1: Banner chính -->
+          <figure class="gallery-item" tabindex="0" role="button" aria-label="Xem ấn phẩm Banner chính thức"
+                  data-full="images/banner2.png"
+                  data-caption="Sản phẩm thiết kế số 1: Banner chính thức của website Mùa Hè Xanh – Hành Trình Cống Hiến">
+            <div class="gallery-thumbnail-wrap">
+              <img src="images/banner2.png" alt="Sản phẩm thiết kế số 1: Banner chính thức của website Mùa Hè Xanh – Hành Trình Cống Hiến" class="gallery-thumb" loading="lazy">
+              <div class="gallery-zoom-overlay">🔍 Phóng to ảnh</div>
+            </div>
+            <figcaption class="gallery-caption">
+              <p class="gallery-title">Banner chính chủ đạo chiến dịch</p>
+            </figcaption>
+          </figure>
+
+          <!-- Ấn phẩm 2: Poster -->
+          <figure class="gallery-item" tabindex="0" role="button" aria-label="Xem ấn phẩm Poster tuyên truyền"
+                  data-full="images/poster.svg"
+                  data-caption="Sản phẩm thiết kế số 2: Poster tuyên truyền chính thức chiến dịch Mùa Hè Xanh">
+            <div class="gallery-thumbnail-wrap">
+              <img src="images/poster.svg" alt="Sản phẩm thiết kế số 2: Poster chiến dịch Mùa Hè Xanh" class="gallery-thumb" style="object-position: top center;" loading="lazy">
+              <div class="gallery-zoom-overlay">🔍 Phóng to ảnh</div>
+            </div>
+            <figcaption class="gallery-caption">
+              <p class="gallery-title">Poster truyền thông chiến dịch</p>
+            </figcaption>
+          </figure>
+
+          <!-- Ấn phẩm 3: Infographic -->
+          <figure class="gallery-item" tabindex="0" role="button" aria-label="Xem ấn phẩm Infographic hành trang"
+                  data-full="images/infographic.svg"
+                  data-caption="Sản phẩm thiết kế số 3: Infographic Cẩm nang hành trang chiến sĩ tình nguyện Mùa Hè Xanh">
+            <div class="gallery-thumbnail-wrap">
+              <img src="images/infographic.svg" alt="Sản phẩm thiết kế số 3: Cẩm nang hành trang chiến sĩ tình nguyện Mùa Hè Xanh" class="gallery-thumb" style="object-position: top center;" loading="lazy">
+              <div class="gallery-zoom-overlay">🔍 Phóng to ảnh</div>
+            </div>
+            <figcaption class="gallery-caption">
+              <p class="gallery-title">Infographic hành trang chiến sĩ</p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <!-- THÔNG ĐIỆP KẾT THÚC THƯ VIỆN -->
+        <div style="background-color: var(--color-primary-green-bg); padding: 22px; border-radius: var(--radius-md); text-align: center; margin-top: 36px; border: 1px solid #c8e6c9;">
+          <p style="font-size: 1.15rem; font-weight: 700; color: var(--color-primary-green-dark); margin-bottom: 0;">
+            “Mỗi hành động nhỏ hôm nay có thể tạo nên những thay đổi tích cực cho cộng đồng ngày mai.”
+          </p>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- ==================== LIGHTBOX MODAL PHÓNG TO ẢNH (CHỨC NĂNG JAVASCRIPT) ==================== -->
+  <div id="lightbox-modal" class="lightbox-modal" role="dialog" aria-modal="true" aria-hidden="true" aria-label="Xem ảnh phóng to">
+    <div class="lightbox-container">
+      <button type="button" id="lightbox-close-btn" class="lightbox-close-btn" aria-label="Đóng cửa sổ xem ảnh" title="Đóng (phím Esc)">✕</button>
+      <div class="lightbox-img-wrap">
+        <img id="lightbox-image" src="" alt="" class="lightbox-image">
+      </div>
+      <div class="lightbox-details">
+        <p id="lightbox-caption-text" class="lightbox-caption-text"></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== FOOTER CHÂN TRANG THỐNG NHẤT ==================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <p class="footer-brand-title">MÙA HÈ XANH – HÀNH TRÌNH CỐNG HIẾN</p>
+          <p class="footer-text">Chiến dịch tình nguyện thường niên thắp sáng tinh thần xung kích, dấn thân và cống hiến của tuổi trẻ sinh viên vì sự phát triển bền vững của cộng đồng.</p>
+          <p class="footer-disclaimer">Website mô phỏng phục vụ học tập – Thiết kế web MMC403. Thông tin liên hệ và mục tiêu dự kiến mang tính chất minh họa học tập.</p>
+        </div>
+        <div>
+          <h4 class="footer-heading">Liên kết nội dung</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Trang chủ</a></li>
+            <li><a href="muc-tieu-dia-ban.html">Mục tiêu & Địa bàn</a></li>
+            <li><a href="doi-hinh.html">Các đội hình tình nguyện</a></li>
+            <li><a href="hoat-dong.html">Danh mục hoạt động</a></li>
+            <li><a href="chi-tiet-hoat-dong.html">Chi tiết hoạt động trọng điểm</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-heading">Thông tin & Đăng ký</h4>
+          <ul class="footer-links">
+            <li><a href="lich-trinh.html">Lịch trình & Kế hoạch</a></li>
+            <li><a href="dang-ky.html">Đăng ký tham gia</a></li>
+            <li><a href="faq.html">Hỏi đáp thường gặp (FAQ)</a></li>
+            <li><a href="thu-vien.html">Thư viện ảnh</a></li>
+            <li style="margin-top: 10px; color: #cbd5e1; font-size: 0.88rem;">Email minh họa: muahexanh.minhhoa@edu.vn</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 MÙA HÈ XANH – HÀNH TRÌNH CỐNG HIẾN | Thiết kế web MMC403.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
